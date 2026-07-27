@@ -1,5 +1,7 @@
 import express from "express"
 
+import userRoutes from "./models/user.model.js"
+
 const app = express();
 
 app.use(express.json());
